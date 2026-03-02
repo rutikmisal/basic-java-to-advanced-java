@@ -32,10 +32,10 @@ class Strings
 		{
 			System.out.println("Two Strings Are Not		 equal");
 		}
-
+ 
 		//SubString
-		String Name3="I am Rutik Misal "
-		String subStrings = lastName.substring(6,11);
+		String Name3="I am Rutik Misal ";
+		String subStrings = Name3.substring(10,16);
 		System.out.println("SubString : "+subStrings);
 	}
 }
